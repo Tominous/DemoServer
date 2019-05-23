@@ -28,12 +28,12 @@ allow-crafting: false
 overwrite-names: false
 lobby-gamemode: 0
 holographic-stats:
-  show-prefix: false
+  show-prefix: true
   name-color: '&7'
   value-color: '&e'
-  head-line: Your &eBEDWARS&f stats
-teamname-on-tab: false
-teamname-in-chat: false
+  head-line: Your &eBEDWARS&f statistics
+teamname-on-tab: true
+teamname-in-chat: true
 hearts-on-death: true
 die-on-void: false
 lobbytime: 60
@@ -77,7 +77,7 @@ titles:
     subtitle-stay: 5.0
     subtitle-fade-out: 2.0
   map:
-    enabled: false
+    enabled: true
     title-fade-in: 1.5
     title-stay: 2.0
     title-fade-out: 1.5
@@ -96,7 +96,7 @@ friendlybreak: true
 gameoverdelay: 10
 use-internal-shop: true
 save-inventory: true
-show-team-in-actionbar: false
+show-team-in-actionbar: true
 chat-to-all-prefix:
 - '@'
 - '@a'
@@ -104,7 +104,7 @@ chat-to-all-prefix:
 seperate-game-chat: true
 seperate-spectator-chat: false
 statistics:
-  enabled: false
+  enabled: true
   show-on-game-end: true
   storage: yaml
   bed-destroyed-kills: false
@@ -130,8 +130,8 @@ respawn-protection: 0
 allowed-commands:
 - /help
 endgame:
-  mainlobby-enabled: false
-  all-players-to-mainlobby: false
+  mainlobby-enabled: true
+  all-players-to-mainlobby: true
 bungeecord:
   enabled: false
   hubserver: hub
@@ -174,7 +174,7 @@ ressource:
 check-updates: true
 update-infos: true
 rewards:
-  enabled: false
+  enabled: true
   player-win:
   - /example {player} 200
   player-end-game:
